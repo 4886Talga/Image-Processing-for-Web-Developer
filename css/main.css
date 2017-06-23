@@ -1,0 +1,138 @@
+body {
+  background-color: #fff;
+  color: #fff; }
+
+.borderblue {
+  border: solid 3px blue; }
+
+.borderred {
+  border: solid 3px red; }
+
+nav.navbar {
+	//position: absolute;
+	font-size: 14px;
+	background-color: #785964;
+	height: 87px;
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 900;
+	
+}
+nav.navbar .navbar-brand{
+	color:beige;
+}
+nav.navbar .navbar-nav .nav-link{
+	color:beige;
+}
+nav.navbar .navbar-nav .nav-item.active .nav-link{
+	color:beige;
+}
+
+
+nav h1{
+	font-size: 14px;
+    text-transform: uppercase;
+	//text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    font-weight: 900;
+	//text-align: center;
+	margin: 30px;
+}
+section .S1{
+	background-color: #D5C7BC;
+}
+.S1 .image-holder{
+	width: 50%;
+	margin: auto;
+}
+.image-holder p {
+  color: #3e3e3e;
+  margin-top:0;
+  padding-top: 30px;
+  margin-bottom: 10px;
+  font-family: 'Roboto Slab', Georgia, serif;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.25em;
+}
+section .S2{
+	background-color: #DEEAE6;
+}
+.S2 p{
+	margin: 50px 25% 0 25%;
+	padding-bottom: 30px;
+}
+.h-divider{
+	margin: 20px auto;
+ height:1px;
+ width:50%;
+}
+section .S3{
+	background-color: #93B7BE;
+}
+.S3 .image-holder{
+	width: 50%;
+	margin: auto;
+}
+.S3 p{
+	margin: 80px 25% 0 25%;
+	padding-bottom: 30px;
+}
+.S4 p {
+	width: 50%;
+	margin: auto;
+}
+.S4 {
+	margin-top: 50px;
+}
+/*-------------------ICONS-----------------------------*/
+.smartwatch {
+	height: 48px;
+	width:  46px;
+	background: url(../images/smartwatch@1x.png);
+}
+.smartwatch:hover{
+	cursor: pointer;
+	background: url(../images/smartwatch.gif);
+}
+.snooze {
+	height: 48px;
+	width:  46px;
+	background: url(../images/snooze@1x.png);
+}
+.snooze:hover{
+	cursor: pointer;
+	background: url(../images/snooze.gif);
+}
+.vr {
+	height: 48px;
+	width:  46px;
+	background: url(../images/vr-icon@1x.png);
+}
+.vr:hover{
+	cursor: pointer;
+	background: url(../images/vr-icon.gif);
+}
+.occupied {
+	height: 48px;
+	width:  46px;
+	background: url(../images/occupied@1x.png);
+}
+.occupied:hover{
+	cursor: pointer;
+	background: url(../images/occupied.gif);
+}
+.vdivide {
+  background: #e0e0e0;
+  width: 2px;
+  content: "";
+  display:block;
+  //position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 10px;
+  //min-height: 70px;
+  height: 70px;
+  margin-left: 40px;
+ 
+}
